@@ -1,0 +1,311 @@
+/* Header/Nav */
+* {
+    background-color: ivory;
+}
+#icon {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: -20%;
+}
+
+#pagebreak {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 11%;
+    margin-bottom: -5%;
+}
+
+#nav ul {
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+}
+
+#nav li {
+    display: inline;
+    padding: 3%;
+    font-family: Montserrat;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.current_page {
+	font-weight: bold;
+}
+
+/* Home Page */
+.intro {
+    width: 50%;
+    margin: auto; 
+    margin-top: 3%;
+    background-color: #d5b499;
+    overflow: auto;
+}
+
+#pfp {
+    width: 50%;
+    float: left;
+}
+
+.rightpanel h2 {
+    font-family: Lora;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    float: left;
+    background-color: #d5b499;
+}
+
+.rightpanel p {
+    font-family: Lora;
+    text-align: center;
+    width: 50%;
+    float: left;
+    color: white;
+    background-color: #d5b499;
+}
+
+/* Home - Quote */
+.quote {
+    margin: auto;
+    margin-top: 2%;
+    background-color: #009f60;
+    overflow: auto;
+    padding: 5%;
+}
+
+.quote h2 {
+    font-family: Montserrat;
+    background-color: #009f60;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote p {
+    font-family: Montserrat;
+    background-color: #009f60;
+    color: white;
+    text-align: center;
+}
+
+/* Resume Page */
+.jobheader h1 {
+    display: block;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #009f60;
+    padding: 5%;
+}
+
+h3 {
+    color: #009f60;
+    font-family: Montserrat;
+    font-weight: bold;
+    float: left;
+    margin-left: 3%;
+}
+
+.job p {
+    color: black;
+    font-family: Lora;
+    float: left;
+    margin-left: 10%;
+}
+
+.education p {
+    color: black;
+    font-family: Lora;
+    float: left;
+    margin-left: 10%;
+}
+
+.educationheader h1 {
+    display: block;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #009f60;
+    margin-top: 15%;
+    padding: 5%;
+}
+
+#small {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.LCC p {
+    color: black;
+    font-family: Lora;
+    float: left;
+    margin-left: 8%;
+}
+
+/* Case Studies Page -- mostly the same as art gallery */
+.fullcasegallery {
+    margin-top: 3%;
+    display: flex;
+}
+
+/*Eastside Page */
+.bigheaders {
+    display: block;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #009f60;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.bigheaders h1 {
+    display: block;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #009f60;
+}
+
+.project {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+#easty {
+    margin-top: 3%;
+    width: 30%;
+    float: left;
+}
+
+.project p {
+    color: black;
+    font-family: Lora;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.projectgal {
+    margin-top: 3%;
+    display: flex;
+}
+
+/* Art Gallery Page */
+.fullgallery {
+    margin-top: 3%;
+}
+.gallery {
+    margin: auto;
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+  }
+
+.gallery:hover {
+    border-style: inset;
+    border-color: black;
+    border-width: medium;
+  }
+
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+.desc {
+    padding: 2.5%;
+    font-family: Lora;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+  }
+
+.row1 {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.row3 {
+    display: flex;
+    margin-top: 5%;
+}
+
+/* Contact Page */
+#contactwords {
+    font-family: Lora;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contacticons ul {
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 2%;
+    padding-left: 34.5%;
+}
+
+/* Footer */
+
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.downzone {
+    width: 80%;
+    margin: auto;
+    grid-column: 2/3;
+    justify-self:stretch;
+    align-self:stretch;
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-left: 32.5%;
+}
+
+#email {
+    float: left;
+    width: 10%;
+}
+
+#instagram {
+    float: left;
+    width: 10%;
+}
+
+#linkedin {
+    float: left;
+    width: 10%;
+}
